@@ -1,0 +1,92 @@
+h1{
+    color: cornflowerblue;
+}
+p{
+    color: chartreuse;
+    text-align: center;
+    background-color: darkgrey;
+}
+.title{
+    color: darkgoldenrod;
+    text-align: right;
+    font-size: 70px;
+}
+body{
+    background-image: url("a.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#teacher{
+    font-size: 150px;
+    color: darkgreen;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+}
+p.error{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.success{
+    color: forestgreen;
+    font-size: 20px;
+    font-weight: bolder;
+}
+div{
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+#box{
+    background-color: coral;
+}
+#box2{
+    background-color: chocolate;
+}
+#box3{
+    background-color: salmon;
+}
+#box4{
+    background-color: hotpink;
+}
+#box5{
+    background-color: orangered;
+}
+.nav{
+    background-color: dimgrey;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: left;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+    opacity: 0.5;
+}
+div.hover{
+    width: 300px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 400px;
+    background-color: greenyellow;
+}
+.button{
+    background-color: aqua;
+    color: antiquewhite;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
